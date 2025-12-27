@@ -1,0 +1,104 @@
+================================================================================
+PROMPT TEMPLATE FOR TEXT-TO-SQL COST EVALUATION
+================================================================================
+
+This prompt template was used for all experiments in the paper:
+"Cost-Aware Text-to-SQL: Evaluating Cloud Compute Costs of LLM-Generated Queries"
+
+================================================================================
+SYSTEM INSTRUCTION
+================================================================================
+
+You are a SQL expert. Generate a BigQuery-compatible SQL query for the following
+question. Return only the SQL query without explanation.
+
+================================================================================
+SCHEMA DEFINITION
+================================================================================
+
+Table: bigquery-public-data.stackoverflow.users
+- id (INTEGER): Unique user identifier (Primary Key)
+- display_name (STRING): User's display name
+- reputation (INTEGER): User reputation score
+- creation_date (TIMESTAMP): Account creation date
+- location (STRING): User's location
+- about_me (STRING): User's bio
+- views (INTEGER): Profile view count
+- up_votes (INTEGER): Total upvotes given
+- down_votes (INTEGER): Total downvotes given
+
+Table: bigquery-public-data.stackoverflow.posts_questions
+- id (INTEGER): Question post ID (Primary Key)
+- owner_user_id (INTEGER): References users.id
+- creation_date (TIMESTAMP): Post creation date
+- score (INTEGER): Net votes on the question
+- title (STRING): Question title
+- body (STRING): Full question text (HTML)
+- tags (STRING): Pipe-separated tags (e.g., "python|pandas|dataframe")
+- view_count (INTEGER): Number of views
+- answer_count (INTEGER): Number of answers
+- comment_count (INTEGER): Number of comments
+- accepted_answer_id (INTEGER): ID of accepted answer
+
+Table: bigquery-public-data.stackoverflow.posts_answers
+- id (INTEGER): Answer post ID (Primary Key)
+- owner_user_id (INTEGER): References users.id
+- parent_id (INTEGER): References posts_questions.id
+- creation_date (TIMESTAMP): Post creation date
+- score (INTEGER): Net votes on the answer
+- body (STRING): Full answer text (HTML)
+
+Table: bigquery-public-data.stackoverflow.comments
+- id (INTEGER): Comment ID (Primary Key)
+- post_id (INTEGER): References posts_questions.id or posts_answers.id
+- user_id (INTEGER): References users.id
+- creation_date (TIMESTAMP): Comment creation date
+- text (STRING): Comment text
+- score (INTEGER): Comment score
+
+Table: bigquery-public-data.stackoverflow.badges
+- id (INTEGER): Badge ID (Primary Key)
+- user_id (INTEGER): References users.id
+- name (STRING): Badge name
+- date (TIMESTAMP): Date badge was awarded
+- class (INTEGER): Badge class (1=Gold, 2=Silver, 3=Bronze)
+
+Table: bigquery-public-data.stackoverflow.votes
+- id (INTEGER): Vote ID (Primary Key)
+- post_id (INTEGER): References posts_questions.id or posts_answers.id
+- vote_type_id (INTEGER): Type of vote (2=UpVote, 3=DownVote, etc.)
+- creation_date (TIMESTAMP): Vote creation date
+
+Table: bigquery-public-data.stackoverflow.tags
+- id (INTEGER): Tag ID (Primary Key)
+- tag_name (STRING): Tag name
+- count (INTEGER): Number of questions with this tag
+
+================================================================================
+RELATIONSHIPS
+================================================================================
+
+- posts_questions.owner_user_id -> users.id
+- posts_questions.accepted_answer_id -> posts_answers.id
+- posts_answers.owner_user_id -> users.id
+- posts_answers.parent_id -> posts_questions.id
+- comments.user_id -> users.id
+- comments.post_id -> posts_questions.id OR posts_answers.id
+- badges.user_id -> users.id
+- votes.post_id -> posts_questions.id OR posts_answers.id
+
+================================================================================
+QUESTION PLACEHOLDER
+================================================================================
+
+[Question] {natural_language_question}
+
+================================================================================
+NOTES
+================================================================================
+
+1. Zero-shot prompting: No SQL examples were provided in the prompt.
+2. No optimization hints: We deliberately omitted hints like "minimize bytes 
+   scanned" or "use partition filters" to evaluate inherent cost-awareness.
+3. All models received identical prompts to ensure fair comparison.
+4. The schema was provided in full (not abbreviated as shown in the paper).

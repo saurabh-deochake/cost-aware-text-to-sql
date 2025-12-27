@@ -1,0 +1,31 @@
+Question_ID,Complexity,Question
+S1,Simple,How many questions were asked in 2020?
+S2,Simple,List the top 10 users by reputation
+S3,Simple,What is the average score of all questions?
+S4,Simple,"Count the number of questions that contain 'python' in their tags"
+S5,Simple,Find all users who joined in 2021
+S6,Simple,What are the 10 most viewed questions?
+S7,Simple,How many answers have a score greater than 100?
+S8,Simple,List the 10 most recent comments
+S9,Simple,Count the total number of badges awarded
+S10,Simple,Find questions with no accepted answer
+M1,Medium,Show the top 10 users by total number of questions asked
+M2,Medium,Find questions with the most answers
+M3,Medium,"List users who have earned the 'Great Answer' badge"
+M4,Medium,What is the average number of answers per question by year?
+M5,Medium,Find the top 10 questions with the most comments
+M6,Medium,Show users and their total score across all answers
+M7,Medium,List questions asked by users with reputation over 100000
+M8,Medium,Find the most upvoted answer for each of the top 10 questions
+M9,Medium,Count questions and answers per user for users who joined in 2019
+M10,Medium,Show the distribution of question scores by year
+C1,Complex,"Find users who have asked questions, answered questions, and earned at least 5 badges"
+C2,Complex,Rank users by their answer acceptance rate with minimum 10 answers
+C3,Complex,Find questions where the accepted answer was posted by a user with lower reputation than the asker
+C4,Complex,Calculate the month-over-month growth rate of questions asked
+C5,Complex,Find the top 10 users whose answers have the highest average score excluding self-answers
+C6,Complex,List questions that received an answer within 1 hour of being asked and were later accepted
+C7,Complex,Find users who have commented on their own questions more than 5 times
+C8,Complex,Calculate the percentage of questions that receive at least one answer grouped by year
+C9,Complex,Find the most prolific answerers for each of the top 10 tags
+C10,Complex,"Identify questions with controversial voting where answers have high score variance"
