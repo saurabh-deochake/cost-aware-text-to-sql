@@ -33,15 +33,6 @@ The complete prompt template used for all experiments, including:
 - Foreign key relationships
 - Notes on experimental methodology
 
-### 4. Raw Model Results (in parent directory)
-Individual CSV files for each model containing generated SQL queries:
-- `AI Infra Benchmark - Opus 4.5 Thinking.csv`
-- `AI Infra Benchmark - Sonnet 4.5.csv`
-- `AI Infra Benchmark - GPT 5.1.csv`
-- `AI Infra Benchmark - GPT 5.2 Reasoning.csv`
-- `AI Infra Benchmark - Gemini 3 Flash.csv`
-- `AI Infra Benchmark - Gemini 3 Pro (2).csv`
-
 ## Models Evaluated
 
 | Model | Vendor | Type |
@@ -68,7 +59,7 @@ All experiments were conducted on Google BigQuery using the public StackOverflow
 
 ## Citation
 
-If you use this dataset, please cite our paper:
+If you use this dataset, please cite our dataset as follows:
 
 ```
 @misc{deochake2025texttosqldataset,
