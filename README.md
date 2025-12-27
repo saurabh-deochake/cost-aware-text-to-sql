@@ -70,11 +70,16 @@ All experiments were conducted on Google BigQuery using the public StackOverflow
 
 If you use this dataset, please cite our paper:
 
-```bibtex
-@article{deochake2025texttosql,
-  title={Cost-Aware Text-to-SQL: Evaluating Cloud Compute Costs of LLM-Generated Queries},
-  author={Deochake, Saurabh},
-  year={2025}
+```
+@dataset{deochake2025texttosql_dataset,
+  author       = {Deochake, Saurabh},
+  title        = {{Cost-Aware Text-to-SQL: An Empirical Study of Cloud Compute Costs for LLM-Generated Queries}},
+  month        = dec,
+  year         = 2025,
+  publisher    = {Zenodo},
+  version      = {1.0},
+  doi          = {10.5281/zenodo.18070764},
+  url          = {https://doi.org/10.5281/zenodo.18070764}
 }
 ```
 
