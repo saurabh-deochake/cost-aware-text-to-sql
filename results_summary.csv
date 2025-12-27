@@ -1,0 +1,181 @@
+Model,Model_Type,Question_ID,Complexity,Bytes_Processed_MB,Slot_Seconds,Execution_Time_S,Bytes_Shuffled_B,Bytes_Spilled_B,Correct,Cost_USD
+Opus 4.5 Thinking,Reasoning,S1,Simple,175.63,2.52,0.415,9,0,Y,0.0011
+Opus 4.5 Thinking,Reasoning,S2,Simple,735.38,7.75,0.941,674,0,Y,0.0046
+Opus 4.5 Thinking,Reasoning,S3,Simple,175.63,1.15,0.308,9,0,Y,0.0011
+Opus 4.5 Thinking,Reasoning,S4,Simple,604.2,7.75,1.35,1340,0,Y,0.0038
+Opus 4.5 Thinking,Reasoning,S5,Simple,735.38,19.26,4.8,342940000,0,Y,0.0046
+Opus 4.5 Thinking,Reasoning,S6,Simple,2070,13.2,0.66,164150,0,Y,0.0129
+Opus 4.5 Thinking,Reasoning,S7,Simple,259.58,2.22,0.208,1005,0,Y,0.0016
+Opus 4.5 Thinking,Reasoning,S8,Simple,16020,90,1.37,149620,0,Y,0.1001
+Opus 4.5 Thinking,Reasoning,S9,Simple,0,0.36,0.194,180,0,Y,0.0000
+Opus 4.5 Thinking,Reasoning,S10,Simple,2160,145,12.67,4180000000,0,Y,0.0135
+Opus 4.5 Thinking,Reasoning,M1,Medium,864.78,50.14,1.14,1150000000,0,Y,0.0054
+Opus 4.5 Thinking,Reasoning,M2,Medium,2070,14.18,0.327,169740,0,Y,0.0129
+Opus 4.5 Thinking,Reasoning,M3,Medium,1390,11.64,2.2,6720000,0,Y,0.0087
+Opus 4.5 Thinking,Reasoning,M4,Medium,351.26,3.66,0.402,270,0,Y,0.0022
+Opus 4.5 Thinking,Reasoning,M5,Medium,2850,147,1.58,4220000000,0,Y,0.0178
+Opus 4.5 Thinking,Reasoning,M6,Medium,1010,63.56,5.01,1480000000,0,Y,0.0063
+Opus 4.5 Thinking,Reasoning,M7,Medium,2400,31.02,5.07,2124000,0,Y,0.0150
+Opus 4.5 Thinking,Reasoning,M8,Medium,2320,50.63,0.935,43130,0,Y,0.0145
+Opus 4.5 Thinking,Reasoning,M9,Medium,1350,105.32,8.71,2190000000,0,Y,0.0084
+Opus 4.5 Thinking,Reasoning,M10,Medium,351.26,20.3,0.371,649020,0,Y,0.0022
+Opus 4.5 Thinking,Reasoning,C1,Complex,1270,95.07,3.15,2330000000,0,Y,0.0079
+Opus 4.5 Thinking,Reasoning,C2,Complex,1520,82.97,2.62,1680000000,0,Y,0.0095
+Opus 4.5 Thinking,Reasoning,C3,Complex,2650,163,11.25,5000000000,0,Y,0.0166
+Opus 4.5 Thinking,Reasoning,C4,Complex,175.63,22.27,1.98,6000,0,Y,0.0011
+Opus 4.5 Thinking,Reasoning,C5,Complex,1600,100.39,1.07,2460000000,0,Y,0.0100
+Opus 4.5 Thinking,Reasoning,C6,Complex,2150,148.74,8.63,3560000000,0,Y,0.0134
+Opus 4.5 Thinking,Reasoning,C7,Complex,2130,135.74,9.37,3600000000,0,Y,0.0133
+Opus 4.5 Thinking,Reasoning,C8,Complex,351.26,5.18,0.529,540,0,Y,0.0022
+Opus 4.5 Thinking,Reasoning,C9,Complex,1770,211.07,2.64,2540000000,0,Y,0.0111
+Opus 4.5 Thinking,Reasoning,C10,Complex,2150,215.2,2.8,6860000000,0,Y,0.0134
+Sonnet 4.5,Standard,S1,Simple,175.63,2.02,0.36,9,0,Y,0.0011
+Sonnet 4.5,Standard,S2,Simple,735.38,11.02,1.07,674,0,Y,0.0046
+Sonnet 4.5,Standard,S3,Simple,175.63,1.72,0.372,9,0,Y,0.0011
+Sonnet 4.5,Standard,S4,Simple,604.2,8.67,1.52,1340,0,Y,0.0038
+Sonnet 4.5,Standard,S5,Simple,735.38,21.81,5.02,342940000,0,Y,0.0046
+Sonnet 4.5,Standard,S6,Simple,2660,17.91,0.407,214520,0,Y,0.0166
+Sonnet 4.5,Standard,S7,Simple,259.58,2.15,0.237,1005,0,Y,0.0016
+Sonnet 4.5,Standard,S8,Simple,16020,164,2.71,149620,0,Y,0.1001
+Sonnet 4.5,Standard,S9,Simple,0,0.351,0.216,180,0,Y,0.0000
+Sonnet 4.5,Standard,S10,Simple,2750,175,12.96,5260000000,0,Y,0.0172
+Sonnet 4.5,Standard,M1,Medium,864.78,49.33,1.12,1150000000,0,Y,0.0054
+Sonnet 4.5,Standard,M2,Medium,2660,17.63,0.51,222540,0,Y,0.0166
+Sonnet 4.5,Standard,M3,Medium,1730,12.97,1.41,11500000,0,Y,0.0108
+Sonnet 4.5,Standard,M4,Medium,351.26,4.14,0.524,270,0,Y,0.0022
+Sonnet 4.5,Standard,M5,Medium,3020,150,1.66,4520000000,0,Y,0.0189
+Sonnet 4.5,Standard,M6,Medium,1010,53.54,5.82,1480000000,0,Y,0.0063
+Sonnet 4.5,Standard,M7,Medium,3330,36.48,1.57,2974000,0,Y,0.0208
+Sonnet 4.5,Standard,M8,Medium,3190,68,0.866,55390,0,Y,0.0199
+Sonnet 4.5,Standard,M9,Medium,1490,117,9.07,2400000000,0,Y,0.0093
+Sonnet 4.5,Standard,M10,Medium,351.26,21.31,0.549,11730000,0,Y,0.0022
+Sonnet 4.5,Standard,C1,Complex,2040,46620,46.36,1943000000,0,Y,0.0128
+Sonnet 4.5,Standard,C2,Complex,1520,147,3.52,4230000000,0,Y,0.0095
+Sonnet 4.5,Standard,C3,Complex,2820,188,12.83,5810000000,0,Y,0.0176
+Sonnet 4.5,Standard,C4,Complex,175.63,30.46,1.52,37850,0,Y,0.0011
+Sonnet 4.5,Standard,C5,Complex,1860,141,1.8,5110000000,0,Y,0.0116
+Sonnet 4.5,Standard,C6,Complex,3020,171,9.02,5880000000,0,Y,0.0189
+Sonnet 4.5,Standard,C7,Complex,2770,148,3.26,4320000000,0,Y,0.0173
+Sonnet 4.5,Standard,C8,Complex,351.26,3.25,0.417,540,0,Y,0.0022
+Sonnet 4.5,Standard,C9,Complex,2020,233,2.5,2750000000,0,Y,0.0126
+Sonnet 4.5,Standard,C10,Complex,2490,96,1.66,4840000000,0,Y,0.0156
+GPT-5.1,Standard,S1,Simple,175.63,2,0.676,9,0,Y,0.0011
+GPT-5.1,Standard,S2,Simple,517.02,3,1,58500,0,Y,0.0032
+GPT-5.1,Standard,S3,Simple,175.63,1,0.411,9,0,Y,0.0011
+GPT-5.1,Standard,S4,Simple,604.2,13,1,9,0,Y,0.0038
+GPT-5.1,Standard,S5,Simple,659.78,23,4,316490000,0,Y,0.0041
+GPT-5.1,Standard,S6,Simple,2070,66,0.819,163980,0,Y,0.0129
+GPT-5.1,Standard,S7,Simple,259.58,10,0.628,1060,0,Y,0.0016
+GPT-5.1,Standard,S8,Simple,16020,364,4,149620,0,Y,0.1001
+GPT-5.1,Standard,S9,Simple,0,1,0.409,180,0,Y,0.0000
+GPT-5.1,Standard,S10,Simple,34620,2564,13,67670000000,0,Y,0.2164
+GPT-5.1,Standard,M1,Medium,546.39,66,1,784570000,0,Y,0.0034
+GPT-5.1,Standard,M2,Medium,36340,3840,9,0,0,N,0.2271
+GPT-5.1,Standard,M3,Medium,1250,32,2,451530000,0,Y,0.0078
+GPT-5.1,Standard,M4,Medium,351.26,7,0.625,270,0,Y,0.0022
+GPT-5.1,Standard,M5,Medium,2030,162,1,3180000000,0,Y,0.0127
+GPT-5.1,Standard,M6,Medium,890.66,89,6,1250000000,0,Y,0.0056
+GPT-5.1,Standard,M7,Medium,36640,258,5,270140000,0,Y,0.2290
+GPT-5.1,Standard,M8,Medium,29430,538,3,752020,0,Y,0.1839
+GPT-5.1,Standard,M9,Medium,1350,111,7,1640000000,0,Y,0.0084
+GPT-5.1,Standard,M10,Medium,351.26,6,1,254340,0,Y,0.0022
+GPT-5.1,Standard,C1,Complex,1550,929,14,1704000000,0,Y,0.0097
+GPT-5.1,Standard,C2,Complex,1380,103,3,2010000000,0,Y,0.0086
+GPT-5.1,Standard,C3,Complex,3330,259,9,6680000000,0,Y,0.0208
+GPT-5.1,Standard,C4,Complex,175.63,12,1,6000,0,Y,0.0011
+GPT-5.1,Standard,C5,Complex,1460,111,1,2210000000,0,Y,0.0091
+GPT-5.1,Standard,C6,Complex,2820,172,28,3670000000,0,Y,0.0176
+GPT-5.1,Standard,C7,Complex,1990,146,3,2480000000,0,Y,0.0124
+GPT-5.1,Standard,C8,Complex,351.26,4,0.454,540,0,Y,0.0022
+GPT-5.1,Standard,C9,Complex,1630,298,3,2980000000,0,Y,0.0102
+GPT-5.1,Standard,C10,Complex,2150,188,4,5230000000,0,Y,0.0134
+GPT-5.2 High Reasoning,Reasoning,S1,Simple,175.63,1.46,0.395,9,0,Y,0.0011
+GPT-5.2 High Reasoning,Reasoning,S2,Simple,735.38,5.87,0.58,674,0,Y,0.0046
+GPT-5.2 High Reasoning,Reasoning,S3,Simple,175.63,2.27,0.388,9,0,Y,0.0011
+GPT-5.2 High Reasoning,Reasoning,S4,Simple,604.2,10.2,1.37,1340,0,Y,0.0038
+GPT-5.2 High Reasoning,Reasoning,S5,Simple,735.38,12.06,6.05,236320000,0,Y,0.0046
+GPT-5.2 High Reasoning,Reasoning,S6,Simple,2660,26.26,0.501,214520,0,Y,0.0166
+GPT-5.2 High Reasoning,Reasoning,S7,Simple,259.58,2.66,0.353,1005,0,Y,0.0016
+GPT-5.2 High Reasoning,Reasoning,S8,Simple,16020,231,3.88,149620,0,Y,0.1001
+GPT-5.2 High Reasoning,Reasoning,S9,Simple,0,1.29,0.258,180,0,Y,0.0000
+GPT-5.2 High Reasoning,Reasoning,S10,Simple,2750,162,9.79,4720000000,0,Y,0.0172
+GPT-5.2 High Reasoning,Reasoning,M1,Medium,689.15,42.05,1.04,984720000,0,Y,0.0043
+GPT-5.2 High Reasoning,Reasoning,M2,Medium,2660,20.99,0.487,223230,0,Y,0.0166
+GPT-5.2 High Reasoning,Reasoning,M3,Medium,2070,15.36,0.851,5640000,0,Y,0.0129
+GPT-5.2 High Reasoning,Reasoning,M4,Medium,351.26,2.98,0.433,270,0,Y,0.0022
+GPT-5.2 High Reasoning,Reasoning,M5,Medium,3950,185,2.15,6170000000,0,Y,0.0247
+GPT-5.2 High Reasoning,Reasoning,M6,Medium,1010,48.84,1.09,1270000000,0,Y,0.0063
+GPT-5.2 High Reasoning,Reasoning,M7,Medium,3330,43.6,0.644,2580000,0,Y,0.0208
+GPT-5.2 High Reasoning,Reasoning,M8,Medium,4430,100,1.46,606510000,0,Y,0.0277
+GPT-5.2 High Reasoning,Reasoning,M9,Medium,1060,118,5.33,842100000,0,Y,0.0066
+GPT-5.2 High Reasoning,Reasoning,M10,Medium,351.26,4.32,0.456,254340,0,Y,0.0022
+GPT-5.2 High Reasoning,Reasoning,C1,Complex,1270,184,6.21,1920000000,0,Y,0.0079
+GPT-5.2 High Reasoning,Reasoning,C2,Complex,1270,160,6.51,1450000000,0,Y,0.0079
+GPT-5.2 High Reasoning,Reasoning,C3,Complex,4430,230,1.96,7990000000,0,Y,0.0277
+GPT-5.2 High Reasoning,Reasoning,C4,Complex,175.63,2.66,0.518,5330,0,Y,0.0011
+GPT-5.2 High Reasoning,Reasoning,C5,Complex,1600,104,1.39,2450000000,0,Y,0.0100
+GPT-5.2 High Reasoning,Reasoning,C6,Complex,2660,184,1.85,4050000000,0,Y,0.0166
+GPT-5.2 High Reasoning,Reasoning,C7,Complex,1990,132,5.18,2480000000,0,Y,0.0124
+GPT-5.2 High Reasoning,Reasoning,C8,Complex,351.26,7.56,0.611,540,0,Y,0.0022
+GPT-5.2 High Reasoning,Reasoning,C9,Complex,1880,476,12.91,4310000000,0,Y,0.0118
+GPT-5.2 High Reasoning,Reasoning,C10,Complex,6100,654,4.73,10990000000,0,Y,0.0381
+Gemini 3 Flash,Standard,S1,Simple,175.63,1.13,0.578,9,0,Y,0.0011
+Gemini 3 Flash,Standard,S2,Simple,374.25,5,0.85,240,0,Y,0.0023
+Gemini 3 Flash,Standard,S3,Simple,175.63,1.33,0.624,9,0,Y,0.0011
+Gemini 3 Flash,Standard,S4,Simple,604.2,11.12,1.04,9,0,Y,0.0038
+Gemini 3 Flash,Standard,S5,Simple,735.38,14,6.17,236320000,0,Y,0.0046
+Gemini 3 Flash,Standard,S6,Simple,1390,34.02,0.786,110360,0,Y,0.0087
+Gemini 3 Flash,Standard,S7,Simple,259.58,10.01,0.576,1060,0,Y,0.0016
+Gemini 3 Flash,Standard,S8,Simple,14720,228,4,137310,0,Y,0.0920
+Gemini 3 Flash,Standard,S9,Simple,0,1.48,0.391,180,0,Y,0.0000
+Gemini 3 Flash,Standard,S10,Simple,16400,145,10.49,3140000000,0,Y,0.1025
+Gemini 3 Flash,Standard,M1,Medium,546.39,49,1.21,737900000,0,Y,0.0034
+Gemini 3 Flash,Standard,M2,Medium,13900,11.33,0.317,115950,0,Y,0.0869
+Gemini 3 Flash,Standard,M3,Medium,1250,16.3,1.57,5380000,0,Y,0.0078
+Gemini 3 Flash,Standard,M4,Medium,351.26,4.25,0.46,270,0,Y,0.0022
+Gemini 3 Flash,Standard,M5,Medium,1560,22.66,0.629,119460,0,Y,0.0098
+Gemini 3 Flash,Standard,M6,Medium,890.66,81,5.41,1250000000,0,Y,0.0056
+Gemini 3 Flash,Standard,M7,Medium,1830,42,2.06,16910000,0,Y,0.0114
+Gemini 3 Flash,Standard,M8,Medium,28750,490,4.45,886110,0,Y,0.1797
+Gemini 3 Flash,Standard,M9,Medium,1350,112,7.46,1910000000,0,Y,0.0084
+Gemini 3 Flash,Standard,M10,Medium,351.26,4.5,0.507,254340,0,Y,0.0022
+Gemini 3 Flash,Standard,C1,Complex,1130,109,3.9,2070000000,0,Y,0.0071
+Gemini 3 Flash,Standard,C2,Complex,980.34,181,4,4390000000,0,Y,0.0061
+Gemini 3 Flash,Standard,C3,Complex,2650,180,7,5000000000,0,Y,0.0166
+Gemini 3 Flash,Standard,C4,Complex,175.63,33.73,1.84,37890,0,Y,0.0011
+Gemini 3 Flash,Standard,C5,Complex,1720,115,1.35,2830000000,0,Y,0.0108
+Gemini 3 Flash,Standard,C6,Complex,2150,112,20.49,2600000000,0,Y,0.0134
+Gemini 3 Flash,Standard,C7,Complex,2630,133,3.36,3310000000,0,Y,0.0164
+Gemini 3 Flash,Standard,C8,Complex,351.26,3,0.483,270,0,Y,0.0022
+Gemini 3 Flash,Standard,C9,Complex,1890,3.28,0.483,270,0,Y,0.0118
+Gemini 3 Flash,Standard,C10,Complex,5590,331,3.39,7360000000,0,Y,0.0349
+Gemini 3 Pro Thinking,Reasoning,S1,Simple,175.63,1,0.32,9,0,Y,0.0011
+Gemini 3 Pro Thinking,Reasoning,S2,Simple,374.25,4,0.751,248,0,Y,0.0023
+Gemini 3 Pro Thinking,Reasoning,S3,Simple,175.63,2,0.286,9,0,Y,0.0011
+Gemini 3 Pro Thinking,Reasoning,S4,Simple,604.2,8,0.963,9,0,Y,0.0038
+Gemini 3 Pro Thinking,Reasoning,S5,Simple,517.02,34,5,188880000,0,Y,0.0032
+Gemini 3 Pro Thinking,Reasoning,S6,Simple,1390,41,0.624,110360,0,Y,0.0087
+Gemini 3 Pro Thinking,Reasoning,S7,Simple,259.58,4,0.303,1060,0,Y,0.0016
+Gemini 3 Pro Thinking,Reasoning,S8,Simple,13440,292,3,125080,0,Y,0.0840
+Gemini 3 Pro Thinking,Reasoning,S9,Simple,0,1,0.52,180,0,Y,0.0000
+Gemini 3 Pro Thinking,Reasoning,S10,Simple,1470,165,10,2810000000,0,Y,0.0092
+Gemini 3 Pro Thinking,Reasoning,M1,Medium,722.02,75,1,931550000,0,Y,0.0045
+Gemini 3 Pro Thinking,Reasoning,M2,Medium,1560,17,0.279,129400,0,Y,0.0098
+Gemini 3 Pro Thinking,Reasoning,M3,Medium,1250,18,1,3950000,0,Y,0.0078
+Gemini 3 Pro Thinking,Reasoning,M4,Medium,351.56,6,0.618,270,0,Y,0.0022
+Gemini 3 Pro Thinking,Reasoning,M5,Medium,2680,202,1,3910000000,0,Y,0.0168
+Gemini 3 Pro Thinking,Reasoning,M6,Medium,890.66,86,6,1200000000,0,Y,0.0056
+Gemini 3 Pro Thinking,Reasoning,M7,Medium,1660,44,1,11810000,0,Y,0.0104
+Gemini 3 Pro Thinking,Reasoning,M8,Medium,28500,565,3,787430,0,Y,0.1781
+Gemini 3 Pro Thinking,Reasoning,M9,Medium,1350,128,6,1750000000,0,Y,0.0084
+Gemini 3 Pro Thinking,Reasoning,M10,Medium,351.26,28,0.389,11730000,0,Y,0.0022
+Gemini 3 Pro Thinking,Reasoning,C1,Complex,1130,176,4,1630000000,0,Y,0.0071
+Gemini 3 Pro Thinking,Reasoning,C2,Complex,1380,157,2,2470000000,0,Y,0.0086
+Gemini 3 Pro Thinking,Reasoning,C3,Complex,2420,176,6,4160000000,0,Y,0.0151
+Gemini 3 Pro Thinking,Reasoning,C4,Complex,175.63,33,1,34900,0,Y,0.0011
+Gemini 3 Pro Thinking,Reasoning,C5,Complex,1460,130,1,2270000000,0,Y,0.0091
+Gemini 3 Pro Thinking,Reasoning,C6,Complex,2150,137,19,2310000000,0,Y,0.0134
+Gemini 3 Pro Thinking,Reasoning,C7,Complex,2630,166,5,3300000000,0,Y,0.0164
+Gemini 3 Pro Thinking,Reasoning,C8,Complex,351.26,4,0.497,270,0,Y,0.0022
+Gemini 3 Pro Thinking,Reasoning,C9,Complex,1630,319,2,3100000000,0,Y,0.0102
+Gemini 3 Pro Thinking,Reasoning,C10,Complex,2150,244,2,4200000000,0,Y,0.0134
