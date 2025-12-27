@@ -71,13 +71,11 @@ All experiments were conducted on Google BigQuery using the public StackOverflow
 If you use this dataset, please cite our paper:
 
 ```
-@dataset{deochake2025texttosql_dataset,
+@misc{deochake2025texttosqldataset,
   author       = {Deochake, Saurabh},
   title        = {{Cost-Aware Text-to-SQL: An Empirical Study of Cloud Compute Costs for LLM-Generated Queries}},
-  month        = dec,
-  year         = 2025,
-  publisher    = {Zenodo},
-  version      = {1.0},
+  year         = {2025},
+  howpublished = {Zenodo},
   doi          = {10.5281/zenodo.18070764},
   url          = {https://doi.org/10.5281/zenodo.18070764}
 }
